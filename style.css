@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #4e4d4d;
+}
+
+main{
+    max-width: 50em;
+    background-image: linear-gradient(35deg,rgb(153, 206, 206),rgb(86, 153, 153));
+    padding: 3rem 1.6rem 6rem 1.6rem;
+    margin: 2rem auto;
+    border-radius: 4rem;
+    box-shadow: 0 2px 2px lightgray;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+
+section{
+    margin: 0 auto 3rem;
+    background-color: white;
+    border-radius: 0.9rem;
+}
+
+.bill{
+    margin: 1rem 0 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    outline: none;
+}
+
+.bill label{
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+.bill input{
+    width: 350px;
+    height: 30px;
+    margin-right: 2rem;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 1rem;
+}
+
+.space-between{
+    margin: 0 0 2rem 1rem;
+}
+
+.space-between label, span{
+    display: inline-block;
+    font-size: 2rem;
+}
+
+input[type="range"]{
+    width: 95%;
+    appearance: none;
+    background-color:rgb(153, 206, 206);
+    border-radius: 2px;
+    height: 5px;
+    margin-top: 2rem;
+}
+
+input[type="range"]::-webkit-slider-thumb{
+    appearance: none;
+    background-color: #4e4d4d;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+.Tipspan{
+    margin: 1rem 14px 0px 61%;
+    width: 50px;
+    text-align: end;
+    display: inline-block;
+    padding-left: 29px;
+}
+
+.spanPerson{
+    margin-left: 64%;
+    display: inline-block;
+    text-align: end;
+    width: 105px;
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+.line{
+    border-bottom: 1px solid #4e4d4d;
+    width: 95%;
+    margin: 2rem auto;
+}
+
+.valueTip{
+    margin-left: 60%;
+    display: inline-block;
+    text-align: end;
+    width: 145px;
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 2rem;
+    display: inline-block;
+}
+
+.BillEach{
+    font-size: 2rem;
+    margin: 0 0 1rem 0;
+}
+
+.valueEach{
+    margin-left: 49%;
+    display: inline-block;
+    text-align: end;
+    width: 145px;
+    font-size: 2rem;
+}
+
+
+

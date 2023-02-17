@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora de Tips</title> 
+</head>
+<body>
+    <main oninput="update()">
+        <h1>Calculador Gorjeta</h1>
+        <section>
+            <div class="bill">
+                <label for="yourBill">Bill</label>
+                <input type="number" name="" id="yourBill"
+                 placeholder="Your Bill">
+            </div>
+            <div class="space-between">
+                <label for="tipInput">Select Tip</label>
+                <span id="tipPercent" class="Tipspan">0%</span>
+                <input type="range" name="" id="tipInput" value="0" max="100">
+            </div>
+            <div class="space-between">
+                <span>Tip</span><span class="valueTip" id="ValueTips"></span>
+                <span class="line"></span>
+                <h2>Total</h2>
+                <span id="resultTotal" class="spanPerson">R$00,00</span>
+            </div>
+        </section>
+        <section>
+            <div class="space-between">
+                <label for="">Split</label>
+                <span id="person" class="spanPerson">1 Person</span>
+                <input type="range" name="" id="personInput" value="0" min="1" max="10">
+            </div>
+            <div class="space-between">
+                <label for="BillEach" class="BillEach">Bill Each</label>
+                <span id="forEach" class="valueEach"></span>
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
